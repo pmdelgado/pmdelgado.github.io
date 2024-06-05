@@ -33,10 +33,10 @@ plugins:
   - jekyll-feed
 
 header_pages:
+  - about.markdown
   - research.markdown
   - engineering.markdown
   - music.markdown
-  - about.markdown
 
 
 
