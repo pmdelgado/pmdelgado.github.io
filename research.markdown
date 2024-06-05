@@ -6,6 +6,8 @@ permalink: /research/
 
 [Google Scholar](https://scholar.google.com/citations?user=N94T9OkAAAAJ&hl=en)
 
+[Teaching](https://www.audiolabs-erlangen.de/fraunhofer/assistant/delgado)
+
 # [Design Choices in a Binaural Perceptual Model for Improved Objective Spatial Audio Quality Assessment](https://scholar.google.com/scholar?oi=bibs&cluster=17853319656859091150&btnI=1&hl=en)
 
 Spatial audio quality assessment is crucial for attaining immersive user experiences, but subjective evaluations are time-consuming and costly. Thus, automated algorithms have been developed for objective quality assessment. This study focuses on the development of an improved binaural perceptual model for spatial audio quality measurement by choosing the best-performing set of design parameters among previously proposed methods. Existing binaural models, particularly extensions of the Perceptual Evaluation of Audio Quality (PEAQ) method, are investigated to enhance spatial audio quality metrics.
