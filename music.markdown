@@ -4,11 +4,6 @@ title: Music
 permalink: /music/
 ---
 
-> *"...you and I are gonna live forever."* 
->
-> -- <cite>some a**hole millionaire</cite>
-
-
 <img src="https://pmdelgado.wordpress.com/wp-content/uploads/2014/04/47407_10151175902848705_934174677_n.jpg" alt="drawing" width="229px" height="150px"/>
 <img src="https://pmdelgado.wordpress.com/wp-content/uploads/2014/04/cat-live-4-hq.jpg" alt="drawing" width="229px" height="150px"/>
 <img src="https://pmdelgado.wordpress.com/wp-content/uploads/2014/04/85428-487286_259377674172407_112528105_n.jpg" alt="drawing" width="229px" height="150px"/>
