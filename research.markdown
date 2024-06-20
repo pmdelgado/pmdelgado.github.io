@@ -8,7 +8,13 @@ permalink: /research/
 
 [Teaching](https://www.audiolabs-erlangen.de/fraunhofer/assistant/delgado)
 
-# [Design Choices in a Binaural Perceptual Model for Improved Objective Spatial Audio Quality Assessment](https://scholar.google.com/scholar?oi=bibs&cluster=17853319656859091150&btnI=1&hl=en)
+# Workshop: "Applications of Artificial Intelligence and Machine Learning in Audio Quality Models" on 156th Audio Engineering Society (AES) Convention, 2024.
+Together with Jan Skoglund (Google LLC), Arijit Biswas (Dolby Germany GmbH) and Hannes Gamper (Microsoft Research).
+
+This workshop, sponsored by the AES Technical Committee on ML/AI, provided hands-on experience in using machine learning for audio quality modeling. Participants learned how machine learning helps understand audio quality perception and improves device and algorithm development by revealing hidden relationships in subject response data. Accurate quality models were shown to predict audio quality, crucial for customer experience, especially when subjective testing is expensive or impractical.
+The aim of this workshop was to disseminate domain-specific skills necessary using ML/DL algorithms in audio quality assessment, including experimental design, data collection, data augmentation, filtering, model design, and cross-validation. The workshop covered historical and modern techniques in merging machine learning with auditory perception, giving participants the tools to evaluate the suitability of existing ML-based quality models for their specific use cases.
+
+# [Design Choices in a Binaural Perceptual Model for Improved Objective Spatial Audio Quality Assessment (AES 2023)](https://scholar.google.com/scholar?oi=bibs&cluster=17853319656859091150&btnI=1&hl=en)
 
 Spatial audio quality assessment is crucial for attaining immersive user experiences, but subjective evaluations are time-consuming and costly. Thus, automated algorithms have been developed for objective quality assessment. This study focuses on the development of an improved binaural perceptual model for spatial audio quality measurement by choosing the best-performing set of design parameters among previously proposed methods. Existing binaural models, particularly extensions of the Perceptual Evaluation of Audio Quality (PEAQ) method, are investigated to enhance spatial audio quality metrics.
 
