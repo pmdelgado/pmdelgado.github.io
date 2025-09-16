@@ -3,10 +3,15 @@ layout: page
 title: Research
 permalink: /research/
 ---
-
 [Google Scholar](https://scholar.google.com/citations?user=N94T9OkAAAAJ&hl=en)
 
 [Teaching](https://www.audiolabs-erlangen.de/fraunhofer/assistant/delgado)
+
+# Panel Discussion (Chair): "Neural Audio Coding Techniques and Their Evaluation" (Audio Engineering Society Artificial Intelligence and Machine Learning for Audio Conference 2025 Sept 8-10, London, UK)
+Together with Jan Skoglund (Google LLC), Jürgen Herre (Fraunhofer IIS/Audiolabs Erlangen), Julian Parker (Stability AI) and Stéphane Ragot (Orange Labs)
+
+Neural audio coding is a cutting-edge approach to audio compression, yet its technology development is in its infancy. This panel will present an overview of various neural audio coding techniques in development and highlight dataset robustness issues. The discussion will emphasize the need for robust subjective and objective evaluation methods, given that neural codecs may generate outputs differing substantially from the original signal. Consequently, it will explore which established assessment principles remain relevant and how insights from generative models can inform new evaluation strategies.
+
 
 # [Towards Improved Objective Perceptual Audio Quality Assessment - Part 1: A Novel Data-Driven Cognitive Model (IEEE/ACM Transactions on Audio, Speech, and Language Processing )](https://ieeexplore.ieee.org/abstract/document/10711267)
 
@@ -17,7 +22,7 @@ Efficient audioquality assessment is vital for streamlining audio codec developm
 The Open Dataset of Audio Quality (ODAQ) was recently introduced to address the scarcity of openly available audio datasets with corresponding subjective quality scores. The dataset, released under permissive licenses, comprises audio material processed using six different signal processing methods operating at five quality levels, along with corresponding subjective test results. To expand the dataset, we provided listener training to university students to conduct further subjective tests and obtained results consistent with previous expert listeners. We also showed how different training approaches affect the use of absolute scales and anchors. The expanded dataset now comprises results from three international laboratories providing a total of 42 listeners and 10080 subjective scores. This paper provides the details of the expansion and an in-depth analysis. As part of this analysis, we initiate the use of ODAQ as a benchmark to evaluate objective audio quality metrics in their ability to predict subjective scores.
 
 # Workshop: "Applications of Artificial Intelligence and Machine Learning in Audio Quality Models" Parts I and II, (on 156th and 157th Audio Engineering Society (AES) Conventions, Madrid and NYC, 2024)
-Together with Jan Skoglund (Google LLC), Phill Williams (Netflix), Arijit Biswas (Dolby Germany GmbH), Hannes Gamper (Microsoft Research) and Saschs Dick (Fraunhofer IIS).
+Together with Jan Skoglund (Google LLC), Phill Williams (Netflix), Arijit Biswas (Dolby Germany GmbH), Hannes Gamper (Microsoft Research) and Sascha Dick (Fraunhofer IIS).
 
 This workshop, sponsored by the AES Technical Committee on ML/AI, provided hands-on experience in using machine learning for audio quality modeling. Participants learned how machine learning helps understand audio quality perception and improves device and algorithm development by revealing hidden relationships in subject response data. Accurate quality models were shown to predict audio quality, crucial for customer experience, especially when subjective testing is expensive or impractical.
 The aim of this workshop was to disseminate domain-specific skills necessary using ML/DL algorithms in audio quality assessment, including experimental design, data collection, data augmentation, filtering, model design, and cross-validation. The workshop covered historical and modern techniques in merging machine learning with auditory perception, giving participants the tools to evaluate the suitability of existing ML-based quality models for their specific use cases.
