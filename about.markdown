@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I work as an audio researcher in perceptual audio signal processing, currently with the [Fraunhofer Institute for Integrated Circuits (IIS)](https://www.iis.fraunhofer.de/en.html) in Germany, and the [International Audio Laboratories Erlangen](https://www.audiolabs-erlangen.de/fraunhofer/assistant/delgado).
+I work as a senior scientist in perceptual audio signal processing, currently with the [Fraunhofer Institute for Integrated Circuits (IIS)](https://www.iis.fraunhofer.de/en.html) in Germany, and the [International Audio Laboratories Erlangen](https://www.audiolabs-erlangen.de/fraunhofer/assistant/delgado).
 
 For the last ten years, I’ve been working on audio signal processing algorithms that ended up in various products and patents, and I also participated in numerous standardisation activities in audio telecommunications. I defended my [doctoral thesis](https://open.fau.de/items/b9a42c3a-9f0d-4012-9cbd-4e5e27131042) on auditory perceptual models for audio quality measurement and audio coding under the supervision of Jürgen Herre and Thomas Sporer (as dissertation jury)
 two of the inventors in the core development team of the [MP3 format]((https://www.mp3-history.com/en/the_mp3_team.html)).
