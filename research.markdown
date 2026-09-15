@@ -3,120 +3,306 @@ layout: page
 title: Research
 permalink: /research/
 ---
-[Google Scholar](https://scholar.google.com/citations?user=N94T9OkAAAAJ&hl=en)
 
-[Teaching](https://www.audiolabs-erlangen.de/fraunhofer/assistant/delgado)
+**Profiles:** [Google Scholar](https://scholar.google.com/citations?user=N94T9OkAAAAJ&hl=en) · [Teaching](https://www.audiolabs-erlangen.de/fraunhofer/assistant/delgado)
 
+## Publications
 
-# [MPEG-I Immersive Audio—The ISO/MPEG Standard for Virtual/Augmented Reality Audio (Journal of the Audio Engineering Society, 2026)](https://aes.org/publications/elibrary-page/?id=23235)
-Together with Disch, Sascha; Terentiv, Leon; Koppens, Jeroen; Falk, Tommy; Leppänen, Jussi; Munoz, Isaac; Herre, Jürgen; Adami, Alexander; Silzle, Andreas; Fischer, Daniel; Setiawan, Panji; Fersch, Christof; Hanschke, Jan-Hendrik; Jelfs, Sam; de Bruijn, Werner; Eronen, Antti; Mate, Sujeet; Dick, Sascha; Borss, Christian; Delgado, Pablo M.; Trinidad, Miguel M.
-The ISO/MPEG international standard on MPEG-I immersive audio was issued in November 2025 by the MPEG Audio group (ISO/IEC JTC 1/SC 29/WG 6). It provides technology for a compressed audio representation and real-time interactive rendering within virtual and augmented reality applications with six degrees of freedom. It enables efficient bitrate management, high-quality storage, and transmission of virtual environments, including audio sources with spatial dimensions and specific radiation traits (such as musical instruments), along with geometric descriptions of acoustically relevant scene details (e.g., walls, doors, sound reflecting, and occluding elements). The audio rendering process incorporates comprehensive modeling of room acoustics and intricate acoustic phenomena, including occlusion, reflection, and diffraction caused by sound obstacles, Doppler effect, and dynamic environment changes triggered by user interactivity. This article presents an overview of background, development, underlying technology, and selected application aspects of the new standard.
+- **[MPEG-I Immersive Audio—The ISO/MPEG Standard for Virtual/Augmented Reality Audio](https://aes.org/publications/elibrary-page/?id=23235)**  
+  *Journal of the Audio Engineering Society, 2026*
 
-# [Deepaq: A Perceptual Audio Quality Metric Based on Foundational Models and Weakly Supervised Learning (ICASSP, 2026)](https://ieeexplore.ieee.org/abstract/document/11465130)
-Together with Jiang, Guanxin and co-authors.
-This paper presents the Deep learning-based Perceptual Audio Quality metric (DeePAQ) for evaluating general audio quality. Our approach leverages metric learning together with the music foundation model MERT, guided by surrogate labels, to construct an embedding space that captures distortion intensity in general audio. To the best of our knowledge, DeePAQ is the first in the general audio quality domain to leverage weakly supervised labels and metric learning for fine-tuning a music foundation model with Low-Rank Adaptation (LoRA), a direction not yet explored by other state-of-the-art methods. We benchmark the proposed model against state-of-the-art objective audio quality metrics across listening tests spanning audio coding and source separation. Results show that our method surpasses existing metrics in detecting coding artifacts and generalizes well to unseen distortions such as source separation, highlighting its robustness and versatility.
+  *Authors:* Disch, Sascha; Terentiv, Leon; Koppens, Jeroen; Falk, Tommy; Leppänen, Jussi; Munoz, Isaac; Herre, Jürgen; Adami, Alexander; Silzle, Andreas; Fischer, Daniel; Setiawan, Panji; Fersch, Christof; Hanschke, Jan-Hendrik; Jelfs, Sam; de Bruijn, Werner; Eronen, Antti; Mate, Sujeet; Dick, Sascha; Borss, Christian; Delgado, Pablo M.; Trinidad, Miguel M.
 
-# [Invited talk at the University of Oldenburg's Collaborative Research Centre SFB 1330 of Hearing Acoustics (HAPPAA): Current advances in objective quality assessment of perceptually coded audio signals 02-Dec-2025](https://uol.de/en/sfb-1330-hearing-acoustics/colloquium)
-The presentation, "Current advances in objective quality assessment of perceptually coded audio signals," focuses on developing objective algorithmic methods to accurately predict subjective audio quality scores for perceptually coded signals, thereby replacing expensive human listening tests and improving generalization across different signal classes and distortions. The presentation reports current advances both in timbre and spatial aspects of audio quality: for timbre audio quality measurement, the PEAQ-CSM (Cognitive Salience Model) extension as an improvement over existing standards like the ITU-R recommendation BS.1387 (PEAQ), specifically addressing the limitation found in combining various distortion metrics (DMs) into a single quality score by dynamically utilizing Cognitive Effect Metrics (CEMs) to predict the salience or importance of the DMs. Furthermore, concerning spatial audio quality measurement, which is increasingly vital due to immersive sound standards like MPEG-H and MPEG-I, the presentation introduces the concept of Directional Loudness Maps (DLM), applied to an extension of PEAQ that moves beyond mere binaural cue distortion assessment by incorporating directional perceptual representations, spatial masking, and directional disturbance loudness to calculate disturbance audibility, demonstrating improved prediction accuracy for challenging signals such as applause and orchestral items. The presentation concluded by stating that achieving strong generalization performance relies on having a solid perceptual modeling foundation, effectively modeling distortion salience (as done in PEAQ-CSM), and leveraging appropriate application-specific calibration data.
+  <details>
+  <summary>Abstract</summary>
 
-# [Exploring Perceptual Audio Quality Measurement on Stereo Processing using the Open Dataset of Audio Quality (Audio Engineering Society Convention, Long Beach, CA, 2025)](https://aes2.org/publications/elibrary-page/?id=23040)
-Toghether with Dick, Sascha (Fraunhofer IIS); Halimeh, Mhd Modar; Wu, Chih-Wei (Netflix, Inc.); Thompson, Christoph (Ball State University); Williams, Phillip A. (Netflix, Inc.)
+  The ISO/MPEG international standard on MPEG-I immersive audio was issued in November 2025 by the MPEG Audio group (ISO/IEC JTC 1/SC 29/WG 6). It provides technology for a compressed audio representation and real-time interactive rendering within virtual and augmented reality applications with six degrees of freedom. It enables efficient bitrate management, high-quality storage, and transmission of virtual environments, including audio sources with spatial dimensions and specific radiation traits, such as musical instruments, along with geometric descriptions of acoustically relevant scene details, including walls, doors, sound-reflecting, and occluding elements.
 
+  The audio rendering process incorporates comprehensive modeling of room acoustics and intricate acoustic phenomena, including occlusion, reflection, and diffraction caused by sound obstacles, the Doppler effect, and dynamic environment changes triggered by user interactivity. This article presents an overview of the background, development, underlying technology, and selected application aspects of the new standard.
 
-ODAQ (Open Dataset of Audio Quality) provides a comprehensive framework for exploring both monaural and binaural audio quality degradations across a range of distortion classes and signals, accompanied by subjective quality ratings. Recent updates of ODAQ provide test signals and subject ratings where artifacts may occur in both stereo channels or a single channel, using established coding methods like Mid/Side (M/S) and Left/Right (L/R). These cases constitute a useful resource for the investigation of timbre and spatial audio quality perception through auditory models included in objective audio quality metrics. In our investigation of various state-of-the-art monaural and binaural perceptual audio quality metrics for predicting the subjective ratings, we find that while timbre-focused metrics often yield robust results -especially under simpler conditions-, presentation context plays a significant role in the prediction performance in other cases. In this context, our findings underscore the importance of modeling the interplay of bottom-up psychoacoustic processes and top-down contextual factors, guiding future research toward models that more effectively integrate both timbral and spatial dimensions of perceived audio quality.
+  </details>
 
-# [Investigating the impact of stereo processing - A study for extending the Open Dataset of Audio Quality (ODAQ) (Audio Engineering Society Convention, Long Beach, CA, 2025)](https://aes2.org/publications/elibrary-page/?id=23039)
-Toghether with Dick, Sascha (Fraunhofer IIS); Wu, Chih-Wei (Netflix, Inc.); Thompson, Christoph (Ball State University); Williams, Phillip A. (Netflix, Inc.); Torcoli, Matteo (Amplifon)
+- **[DeepAQ: A Perceptual Audio Quality Metric Based on Foundational Models and Weakly Supervised Learning](https://ieeexplore.ieee.org/abstract/document/11465130)**  
+  *ICASSP, 2026*
 
-The recently introduced Open Dataset of Audio Quality (ODAQ) addresses the scarcity of available audio material with different signal impairments and associated subjective scores, focusing primarily on monaural artifacts and changes in timbre. In this paper, we present an initial study for extending ODAQ towards the impact of stereo processing and binaural hearing on perceived quality. For this purpose, monaural artifacts from ODAQ were adapted in different combinations with left-right (LR) and mid-side (MS) stereo preprocessing, across diverse stereo characteristics including monaural recordings and hard-panned mixes. The goal was to collect subjective data beyond monaural artifacts while also scrutinizing the listening test methodology. MUSHRA listening test results indicate that the preference for LR or MS coding is substantially influenced by the stereo characteristics of the test signal. Notably, the results also show that differences in ratings between LR and MS are affected significantly by the presentation context, with some conditions showing disparities only when listeners could directly compare the different stereo versions. The findings suggest that listeners primarily assess timbral impairments when spatial characteristics are consistent and focus on stereo image issues only when timbral quality is similar. The rating of an additional mono anchor was overall consistent, yet unexpectedly high, further corroborating that listeners prioritize timbral over spatial impressions.
+  *Authors:* Jiang, Guanxin and co-authors.
 
+  <details>
+  <summary>Abstract</summary>
 
-# Panel Discussion (Chair): "Neural Audio Coding Techniques and Their Evaluation" (Audio Engineering Society Artificial Intelligence and Machine Learning for Audio Conference 2025 Sept 8-10, London, UK)
-Together with Jan Skoglund (Google LLC), Jürgen Herre (Fraunhofer IIS/Audiolabs Erlangen), Julian Parker (Stability AI) and Stéphane Ragot (Orange Labs)
+  This paper presents the Deep learning-based Perceptual Audio Quality metric (DeepAQ) for evaluating general audio quality. The approach leverages metric learning together with the music foundation model MERT, guided by surrogate labels, to construct an embedding space that captures distortion intensity in general audio.
 
-Neural audio coding is a cutting-edge approach to audio compression, yet its technology development is in its infancy. This panel will present an overview of various neural audio coding techniques in development and highlight dataset robustness issues. The discussion will emphasize the need for robust subjective and objective evaluation methods, given that neural codecs may generate outputs differing substantially from the original signal. Consequently, it will explore which established assessment principles remain relevant and how insights from generative models can inform new evaluation strategies.
+  To the best of our knowledge, DeepAQ is the first general-audio-quality method to leverage weakly supervised labels and metric learning for fine-tuning a music foundation model with Low-Rank Adaptation (LoRA). We benchmark the proposed model against state-of-the-art objective audio quality metrics across listening tests spanning audio coding and source separation. Results show that the method surpasses existing metrics in detecting coding artifacts and generalizes well to unseen distortions such as source separation.
 
+  </details>
 
-# [Towards Improved Objective Perceptual Audio Quality Assessment - Part 1: A Novel Data-Driven Cognitive Model (IEEE/ACM Transactions on Audio, Speech, and Language Processing )](https://ieeexplore.ieee.org/abstract/document/10711267)
+- **[Exploring Perceptual Audio Quality Measurement on Stereo Processing using the Open Dataset of Audio Quality](https://aes2.org/publications/elibrary-page/?id=23040)**  
+  *Audio Engineering Society Convention, Long Beach, CA, 2025*
 
-Efficient audioquality assessment is vital for streamlining audio codec development. Objective assessment tools have been developed over time to algorithmically predict quality ratings from subjective assessments, the gold standard for quality judgment. Many of these tools use perceptual auditory models to extract audio features that are mapped to a basic audio quality score prediction using machine learning algorithms and subjective scores as training data. However, existing tools struggle with generalization in quality prediction, especially when faced with unknown signal and distortion types. This is particularly evident in the presence of signals coded using non-waveform-preserving parametric techniques. Addressing these challenges, this two-part work proposes extensions to the Perceptual Evaluation of Audio Quality (PEAQ - ITU-R BS.1387-1) recommendation. Part 1 focuses on increasing generalization, while Part 2 targets accurate spatial audio quality measurement in audio coding. To enhance prediction generalization, this paper (Part 1) introduces a novel machine learning approach that uses subjective data to model cognitive aspects of audio quality perception. The proposed method models the perceived severity of audible distortions by adaptively weighting different distortion metrics. The weights are determined using an interaction cost function that captures relationships between distortion salience and cognitive effects. Compared to other machine learning methods and established tools, the proposed architecture achieves higher prediction accuracy on large databases of previously unseen subjective quality scores. The perceptually-motivated model offers a more manageable alternative to general-purpose machine learning algorithms, allowing potential extensions and improvements to multi-dimensional quality measurement without complete retraining.
+  *Authors:* Sascha Dick, Mhd Modar Halimeh, Chih-Wei Wu, Christoph Thompson, Phillip A. Williams, and Pablo M. Delgado.
 
-# [Expanding and Analyzing ODAQ - The Open Dataset of Audio Quality (157th Audio Engineering Society (AES) Convention, NYC, 2024)](https://aes2.org/publications/elibrary-page/?id=22721)
+  <details>
+  <summary>Abstract</summary>
 
-The Open Dataset of Audio Quality (ODAQ) was recently introduced to address the scarcity of openly available audio datasets with corresponding subjective quality scores. The dataset, released under permissive licenses, comprises audio material processed using six different signal processing methods operating at five quality levels, along with corresponding subjective test results. To expand the dataset, we provided listener training to university students to conduct further subjective tests and obtained results consistent with previous expert listeners. We also showed how different training approaches affect the use of absolute scales and anchors. The expanded dataset now comprises results from three international laboratories providing a total of 42 listeners and 10080 subjective scores. This paper provides the details of the expansion and an in-depth analysis. As part of this analysis, we initiate the use of ODAQ as a benchmark to evaluate objective audio quality metrics in their ability to predict subjective scores.
+  ODAQ (Open Dataset of Audio Quality) provides a comprehensive framework for exploring monaural and binaural audio quality degradations across a range of distortion classes and signals, accompanied by subjective quality ratings.
 
-# Workshop: "Applications of Artificial Intelligence and Machine Learning in Audio Quality Models" Parts I and II, (on 156th and 157th Audio Engineering Society (AES) Conventions, Madrid and NYC, 2024)
-Together with Jan Skoglund (Google LLC), Phill Williams (Netflix), Arijit Biswas (Dolby Germany GmbH), Hannes Gamper (Microsoft Research) and Sascha Dick (Fraunhofer IIS).
+  Recent updates provide test signals and listener ratings where artifacts may occur in both stereo channels or in a single channel, using established coding methods such as Mid/Side (M/S) and Left/Right (L/R). These cases provide a useful resource for investigating timbre and spatial-audio quality perception through auditory models included in objective audio quality metrics.
 
-This workshop, sponsored by the AES Technical Committee on ML/AI, provided hands-on experience in using machine learning for audio quality modeling. Participants learned how machine learning helps understand audio quality perception and improves device and algorithm development by revealing hidden relationships in subject response data. Accurate quality models were shown to predict audio quality, crucial for customer experience, especially when subjective testing is expensive or impractical.
-The aim of this workshop was to disseminate domain-specific skills necessary using ML/DL algorithms in audio quality assessment, including experimental design, data collection, data augmentation, filtering, model design, and cross-validation. The workshop covered historical and modern techniques in merging machine learning with auditory perception, giving participants the tools to evaluate the suitability of existing ML-based quality models for their specific use cases.
+  </details>
 
-# [Design Choices in a Binaural Perceptual Model for Improved Objective Spatial Audio Quality Assessment (AES 2023)](https://scholar.google.com/scholar?oi=bibs&cluster=17853319656859091150&btnI=1&hl=en)
+- **[Investigating the Impact of Stereo Processing—A Study for Extending the Open Dataset of Audio Quality](https://aes2.org/publications/elibrary-page/?id=23039)**  
+  *Audio Engineering Society Convention, Long Beach, CA, 2025*
 
-Spatial audio quality assessment is crucial for attaining immersive user experiences, but subjective evaluations are time-consuming and costly. Thus, automated algorithms have been developed for objective quality assessment. This study focuses on the development of an improved binaural perceptual model for spatial audio quality measurement by choosing the best-performing set of design parameters among previously proposed methods. Existing binaural models, particularly extensions of the Perceptual Evaluation of Audio Quality (PEAQ) method, are investigated to enhance spatial audio quality metrics.
+  *Authors:* Sascha Dick, Chih-Wei Wu, Christoph Thompson, Phillip A. Williams, and Matteo Torcoli.
 
-# [An Improved Metric of Informational Masking for Perceptual Audio Quality Measurement (WASPAA 2023)](https://arxiv.org/abs/2307.06656)
+  <details>
+  <summary>Abstract</summary>
 
-[Video/Slides](https://sigport.org/documents/improved-metric-informational-masking-perceptual-audio-quality-measurement) 
+  The Open Dataset of Audio Quality (ODAQ) addresses the scarcity of available audio material with different signal impairments and associated subjective scores, focusing primarily on monaural artifacts and changes in timbre.
 
-Perceptual audio quality measurement systems algorithmically analyze the output of audio processing systems to estimate possible perceived quality degradation using perceptual models of human audition. In this manner, they save the time and resources associated with the design and execution of listening tests (LTs). Models of disturbance audibility predicting peripheral auditory masking in quality measurement systems have considerably increased subjective quality prediction performance of signals processed by perceptual audio codecs. Additionally, cognitive effects have also been known to regulate perceived distortion severity by influencing their salience. However, the performance gains due to cognitive effect models in quality measurement systems were inconsistent so far, particularly for music signals. Firstly, this paper presents an improved model of informational masking (IM) -- an important cognitive effect in quality perception -- that considers disturbance information complexity around the masking threshold. Secondly, we incorporate the proposed IM metric into a quality measurement systems using a novel interaction analysis procedure between cognitive effects and distortion metrics. The procedure establishes interactions between cognitive effects and distortion metrics using LT data. The proposed IM metric is shown to outperform previously proposed IM metrics in a validation task against subjective quality scores from large and diverse LT databases. Particularly, the proposed system showed an increased quality prediction of music signals coded with bandwidth extension techniques, where other models frequently fail.
+  This paper presents an initial study for extending ODAQ toward stereo processing and binaural hearing. Monaural artifacts were combined with Left/Right (LR) and Mid/Side (MS) stereo preprocessing across diverse stereo characteristics, including monaural recordings and hard-panned mixes.
 
-# [Objective Quality Assessment of Perceptually Coded Audio Signals](https://opus4.kobv.de/opus4-fau/files/22761/DissertationPabloDelgado_electronic_no_logo.pdf)
+  MUSHRA listening-test results indicate that the preference for LR or MS coding is substantially influenced by the stereo characteristics of the test signal. The findings also show that differences between LR and MS are significantly affected by presentation context. Listeners primarily assess timbral impairments when spatial characteristics are consistent and focus on stereo-image issues when timbral quality is similar.
 
-[Presentation](https://www.youtube.com/watch?v=hfDfuHvjxCE) 
+  </details>
 
-The main goal of audio signal coding and processing is to achieve the best possible sound quality within specific parameters. Quality is closely tied to the listener's perception, and a reliable quality assessment method is crucial for market acceptance of a digital audio codec. Perceptual audio coding algorithms eliminate redundant and irrelevant information, but can also produce artifacts that degrade the sound quality. Quality assessment is complex due to factors such as different perceptions of low- and high-quality signals and disturbances in spatial image. Listening tests are considered the gold standard for subjective quality assessment, but computer-based objective quality assessment methods have been developed to reduce costs and time. These systems use perceptual auditory models to predict sound quality, but their performance is limited due to perceptual model limitations. The thesis proposes contributions to improve timbre and spatial aspects of objective quality assessment methods by extending their perceptual models.
+- **Panel Discussion: Neural Audio Coding Techniques and Their Evaluation**  
+  *Audio Engineering Society Artificial Intelligence and Machine Learning for Audio Conference, London, 8–10 September 2025*
 
-# [A Data-Driven Cognitive Salience Model for Objective Audio Quality Assessment (ICASSP 2022)](https://ieeexplore.ieee.org/document/9747064?dld=)
+  *Participants:* Jan Skoglund, Jürgen Herre, Julian Parker, and Stéphane Ragot.
 
-[Video/Slides](https://sigport.org/documents/data-driven-cognitive-salience-model-objective-perceptual-audio-quality-assessment-0) 
+  <details>
+  <summary>Description</summary>
 
-Objective audio quality measurement systems often use perceptual models to predict the subjective quality scores of processed signals, as reported in listening tests. Most systems map different metrics of perceived degradation into a single quality score predicting subjective quality. This requires a quality mapping stage that is informed by real listening test data using statistical learning (i.e., a data-driven approach) with distortion metrics as input features. However, the amount of reliable training data is limited in practice, and usually not sufficient for a comprehensive training of large learning models. Models of cognitive effects in objective systems can, however, improve the learning model. Specifically, considering the salience of certain distortion types, they provide additional features to the mapping stage that improve the learning process, especially for limited amounts of training data. We propose a novel data-driven salience model that informs the quality mapping stage by explicitly estimating the cognitive/degradation metric interactions using a salience measure. Systems incorporating the novel salience model are shown to outperform equivalent systems that only use statistical learning to combine cognitive and degradation metrics, as well as other well-known measurement systems, for a representative validation dataset.
+  Neural audio coding is a cutting-edge approach to audio compression, but its technology development is still in its infancy. This panel presented an overview of neural audio coding techniques in development and highlighted dataset robustness issues.
 
-# [Can we still use PEAQ? A Performance Analysis of the ITU Standard for the Objective Assessment of Perceived Audio Quality](https://ieeexplore.ieee.org/document/9123105)
+  The discussion emphasized the need for robust subjective and objective evaluation methods, given that neural codecs may generate outputs that differ substantially from the original signal. It also explored which established assessment principles remain relevant and how insights from generative models can inform new evaluation strategies.
 
-[Video](https://www.youtube.com/watch?v=6fo-mp7_SCU&feature=youtu.be) ([arXiv](http://arxiv.org/abs/2212.01467)) 
+  </details>
 
-Abstract—The Perceptual Evaluation of Audio Quality (PEAQ) method as described in the International Telecommunication Union (ITU) recommendation ITU-R BS.1387 has been widely used for computationally estimating the quality of perceptually coded audio signals without the need for extensive subjective listening tests. However, many reports have highlighted clear limitations of the scheme after the end of its standardization, particularly involving signals coded with newer technologies such as bandwidth extension or parametric multi-channel coding. Until now, no other method for measuring the quality of both speech and audio signals has been standardized by the ITU. Therefore, a further investigation of the causes for these limitations would be beneficial to a possible update of said scheme. Our experimental results indicate that the performance of PEAQ’s model of disturbance loudness is still as good as (and sometimes superior to) other state-of-the-art objective measures, albeit with varying performance depending on the type of degraded signal content (i.e. speech or music). This finding evidences the need for an improved cognitive model. In addition, results indicate that an updated mapping of Model Output Values (MOVs) to PEAQ’s Distortion Index (DI) based on newer training data can greatly improve performance. Finally, some suggestions for the improvement of PEAQ are provided based on the reported results and comparison to other systems. Index Terms—PEAQ, ViSQOL, PEMO-Q, objective quality assessment, audio quality, speech quality, auditory model, audio coding.
+- **[Towards Improved Objective Perceptual Audio Quality Assessment—Part 1: A Novel Data-Driven Cognitive Model](https://ieeexplore.ieee.org/abstract/document/10711267)**  
+  *IEEE/ACM Transactions on Audio, Speech, and Language Processing*
 
-# [Invited Workshop: To PEAQ or Not to PEAQ? - BS.1387 Revisited (Audio Engineering Society 147th Convention)](http://www.aes.org/events/147/acousticssessions/?ID=6885)
+  <details>
+  <summary>Abstract</summary>
 
-Speakers: Pablo Delgado and Thomas Sporer. Carefully conducted listening tests are time consuming and expensive. Computerized, objective measurement schemes for the assessment of perceived audio quality seem to be an adequate replacement. The Recommendation ITU-R BS.1387 (PEAQ) is a standardized method to assess bit-reduced audio signals However in the last 20 years both audio coding and listening methods have evolved. In addition many authors use PEAQ for assessment of audio processing scheme not known and validated in 1998. This tutorial will consist of the following parts: • explain what PEAQ is, how it was designed and validated; • show some examples where PEAQ fails to predict perceived quality; • summarizes the work since the standardization concerning newer audio coding tools, spatial audio and listening procedures; • gives an outlook of further developments; • give advice under which circumstance the current version of PEAQ should be used. This session was presented in association with the AES Technical Committee on Perception and Subjective Evaluation of Audio Signals
+  Efficient audio-quality assessment is vital for streamlining audio-codec development. Objective assessment tools have been developed to predict subjective audio-quality ratings algorithmically, thereby reducing the need for extensive listening tests.
 
-# [Objective Measurement of Stereophonic Audio Quality in the Directional Loudness Domain](http://www.aes.org/e-lib/browse.cfm?elib=20624)
+  This two-part work proposes extensions to the Perceptual Evaluation of Audio Quality (PEAQ), specified in ITU-R BS.1387-1. Part 1 focuses on improving generalization, while Part 2 addresses accurate spatial-audio-quality measurement.
 
-Automated audio quality prediction is still considered a challenge for stereo or multichannel signals carrying spatial information.A system that accurately and reliably predicts quality scores obtained by time-consuming listening tests can be of great advantage in saving resources, for instance, in the evaluation of parametric spatial audio codecs. Most of the solutions so far work with individual comparisons of distortions of inter-channel cues across time and frequency, known to correlate to distortions in the evoked spatial image of the subject listener. We propose a scene analysis method that considers signal loudness distributed across estimations of perceived source directions on the horizontal plane. The calculation of distortion features in the directional loudness domain (as opposed to the time-frequency domain) seems to provide equal or better correlation with subjectively perceived quality degradation than previous methods, as confirmed by experiments with an extensive database of parametric audio codec listening tests. We investigate the effect of a number of design alternatives (based on psychoacoustic principles) on the overall prediction performance of the associated quality measurement system.
+  Part 1 introduces a machine-learning approach that uses subjective data to model cognitive aspects of audio-quality perception. The proposed model adaptively weights different distortion metrics according to their perceived severity and cognitive salience. Compared with existing machine-learning methods and established tools, the proposed architecture achieves higher prediction accuracy on previously unseen subjective-quality data.
 
-# [Influence of Binaural Processing on Objective Perceptual Quality Assessment](http://www.aes.org/e-lib/browse.cfm?elib=20505)
+  </details>
 
-Objective spatial audio quality measurement systems attempt to predict the perceived quality degradation reported in subjective tests by comparing an original reference and a processed version of the same signal. In this context, binaural processing can be used in conjunction with a perceptual model for improved prediction performance. This paper investigates how variations in the binaural processor—namely head rotations, added reverberation, and simulated room properties—impact the prediction performance of a standardized objective audio (Perceptual Evaluation of Audio Quality–PEAQ) quality measurement scheme that has been extended to include spatial aspects.
+- **[Expanding and Analyzing ODAQ—The Open Dataset of Audio Quality](https://aes2.org/publications/elibrary-page/?id=22721)**  
+  *157th Audio Engineering Society Convention, New York City, 2024*
 
-# [Objective Assessment of Spatial Audio Quality Using Directional Loudness Maps](https://ieeexplore.ieee.org/document/8683810)
+  <details>
+  <summary>Abstract</summary>
 
-([arXiv](http://arxiv.org/abs/2212.01451)) This work introduces a feature extracted from stereophonic/binaural audio signals aiming to represent a measure of perceived quality degradation in processed spatial auditory scenes. The feature extraction technique is based on a simplified stereo signal model considering auditory events positioned towards a given direction in the stereo field using amplitude panning (AP) techniques. We decompose the stereo signal into a set of directional signals for given AP values in the Short-Time Fourier Transform domain and calculate their overall loudness to form a directional loudness representation or maps. Then, we compare directional loudness maps of a reference signal and a deteriorated version to derive a distortion measure aiming to describe the associated perceived degradation scores reported in listening tests. The measure is then tested on an extensive listening test database with stereo signals processed by state-of-the-art perceptual audio codecs using non waveform-preserving techniques such as bandwidth extension and joint stereo coding, known for presenting a challenge to existing quality predictors. Results suggest that the derived distortion measure can be incorporated as an extension to existing automated perceptual quality assessment algorithms for improving prediction on spatially coded audio signals.
+  The Open Dataset of Audio Quality (ODAQ) was introduced to address the scarcity of openly available audio datasets with corresponding subjective-quality scores. The dataset comprises audio material processed using six different signal-processing methods at five quality levels, together with subjective-test results.
 
-# [Investigations on the Influence of Combined Inter-Aural Cue Distortions in Overall Audio Quality](https://www.dega-akustik.de/publikationen/online-proceedings/)
+  This work expanded the dataset through additional listening tests conducted by university students following listener training. The results were consistent with those from expert listeners. The expanded dataset contains results from three international laboratories, 42 listeners, and 10,080 subjective scores.
 
-([arXiv](http://arxiv.org/abs/2212.01427)) There is a considerable interest in developing algorithms that can predict audio quality of perceptually coded signals to avoid the cost of extensive listening tests during development time. While many established algorithms for predicting the perceived quality of signals with monaural (timbral) distortions are available (PEAQ, POLQA), predicting the quality degradation of stereo and multi-channel spatial signals is still considered a challenge. Audio quality degradation arising from spatial distortions is usually measured in terms of well known inter-aural cue distortion measures such as Inter-aural Level Difference Distortions (ILDD), Inter-aural Time Difference Distortions (ITDD) and Inter-aural Cross Correlation Distortions (IACCD). However, the extent to which their interaction influences the overall audio quality degradation in complex signals as expressed - for example - in a multiple stimuli test is not yet thoroughly studied. We propose a systematic approach that introduces controlled combinations of spatial distortions on a representative set of signals and evaluates their influence on overall perceived quality degradation by analyzing listening test scores over said signals. From this study we derive guidelines for designing meaningful distortion measures that consider inter-aural cue distortion interactions.
+  </details>
 
-# [Energy Aware Modeling of Inter-channel Level Difference Distortion Impact on Spatial Audio Perception](http://www.aes.org/e-lib/browse.cfm?elib=19634)
+- **Workshop: Applications of Artificial Intelligence and Machine Learning in Audio Quality Models**  
+  *156th and 157th Audio Engineering Society Conventions, Madrid and New York City, 2024*
 
-In spatial audio processing, Inter-aural Level Difference Distortions (ILDD) between reference and coded signals play an important role in the perception of quality degradation. In order to reduce costs, there are efforts to develop algorithms that automatically predict the perceptual quality of multichannel/spatial audio processing operations relative to the unimpaired original without requiring extensive listening tests. Correct modelling of perceived ILDD has a great influence in the prediction performance of automated measurements. We propose an energy aware model of ILDD perception that contemplates a dependency of energy content in different spectral regions of the involved signal. Model parameters are fitted to subjective results obtained from listening test data over a synthetically generated audio database with arbitrarily induced ILDD at different intensities, frequency regions and energy levels. Finally, we compare the performance of our proposed model over two extensive databases of real coded signals along with two state-of-the-art ILDD models.
+  *Co-organizers:* Jan Skoglund, Phillip Williams, Arijit Biswas, and Hannes Gamper.
 
-# [An Expressive Multidimensional Physical Modelling Percussion Instrument](http://vbn.aau.dk/en/publications/an-expressive-multidimensional-physical-modelling-percussion-instrument(e0e138ac-1ab5-4954-a829-dd95a6bfece3).html)
+  <details>
+  <summary>Description</summary>
 
-This paper describes the design, implementation and evaluation of a digital percussion instrument with multidimensional polyphonic control of a real-time physical modelling system. The system utilizes modular parametric control of different physical models, excitations and couplings along-side continuous morphing and unique interaction capabilities to explore and enhance expressivity and gestural interaction for a percussion instrument. Details of the instrument and audio engine are provided together with an experiment that tested real-time capabilities of the system, and expressive qualities of the instrument. Testing showed that advances in sensor technology have the potential to enhance creativity in percussive instruments and extend gestural manipulation, but will require well designed and inherently complex mapping scheme.  
-I provided the ground concept and code. The project was developed along the Multisensory Experience Laboratory of the University of Aalborg. Presented in the Proceedings of the 15th Sound and Music Computing Conference 2018 ([download link](https://www.researchgate.net/publication/332268472_An_Expressive_Multidimensional_Physical_Modelling_Percussion_Instrument)) Videos; ([demo1](https://youtu.be/6NMmVBBbhzg)) ([demo2](https://www.youtube.com/watch?v=X4KBgh0xO_0))
+  This workshop, sponsored by the AES Technical Committee on Machine Learning and Artificial Intelligence, provided hands-on experience with machine learning for audio-quality modeling.
 
-# [On the Effect of Inter-Channel Level Difference Distortions on the Perceived Subjective Quality of Stereo Signals](http://www.aes.org/e-lib/browse.cfm?elib=19441)
+  Topics included experimental design, data collection, data augmentation, filtering, model design, and cross-validation. The workshop also covered historical and modern approaches to combining machine learning with auditory perception and provided participants with tools for evaluating ML-based quality models.
 
-Perceptual audio coding at low bitrates and stereo enhancement algorithms can affect perceived quality of stereo audio signals. Besides changes in timbre, also the spatial sound image can be altered, resulting in quality degradations compared to an original reference. While effects of timbre degradation on quality are well-understood, effects of spatial distortions are not sufficiently known. This paper presents a study designed to quantify the effect of Inter-Channel Level Difference (ICLD) errors on perceived audio quality. Results show systematic effects of ICLD errors on quality: bigger ICLD errors led to greater quality degradation. Spectral portions containing relatively higher energy were affected more strongly.
+  </details>
 
+- **[Design Choices in a Binaural Perceptual Model for Improved Objective Spatial Audio Quality Assessment](https://scholar.google.com/scholar?oi=bibs&cluster=17853319656859091150&btnI=1&hl=en)**  
+  *Audio Engineering Society Convention, 2023*
 
-# [Complexity scaling of audio algorithms: parametrizing the MPEG Advanced Audio Coding rate-distortion loop (DAFx-2016)](http://dafx16.vutbr.cz/dafxpapers/33-DAFx-16_paper_12-PN.pdf)
+  <details>
+  <summary>Abstract</summary>
 
-Implementations of audio algorithms on embedded devices are required to consume minimal memory and processing power. Such applications can usually tolerate numerical imprecisions (distortion) as long as the resulting perceived quality is not degraded. By taking advantage of this error-tolerant nature the algorithmic complexity can be reduced greatly. In the context of real-time audio coding, these algorithms can benefit from parametrization to adapt rate-distortion-complexity (R-D-C) trade-offs. We propose a modification to the rate-distortion loop in the quantization and coding stage of a fixed-point implementation of the Advanced Audio Coding (AAC) encoder to include complexity scaling. This parametrization could allow the control of algorithmic complexity through instantaneous workload measurements using the target processor's task scheduler to better assign processing resources. Results show that this framework can be tuned to reduce up to 80% of the additional workload caused by the rate-distortion loop while remaining perceptually equivalent to the full-complexity version. Additionally, the modification allows a graceful degradation when transparency cannot be met due to limited computational capabilities.
+  Spatial-audio-quality assessment is crucial for immersive user experiences, but subjective evaluations are time-consuming and costly. This study focuses on developing an improved binaural perceptual model for spatial-audio-quality measurement by selecting the best-performing design parameters from previously proposed methods.
 
-# [Acoustic source localization using wireless sensor networks](http://pmdelgado.wordpress.com/2014/04/21/research-acoustic-source-localization-using-wireless-sensor-networks/).
+  Existing binaural models, particularly extensions of the Perceptual Evaluation of Audio Quality (PEAQ), are investigated to enhance spatial-audio-quality metrics.
 
-I developed an adaptive version of an algorithm suitable for collaborative, distributed acoustic localization of a source based on energy readings over resource constrained Wireless Sensor Networks. This method, under certain circumstances, outperforms the commonly used ones for a given set of design constraints.
+  </details>
+
+- **[An Improved Metric of Informational Masking for Perceptual Audio Quality Measurement](https://arxiv.org/abs/2307.06656)**  
+  *WASPAA, 2023*  
+  [Video and slides](https://sigport.org/documents/improved-metric-informational-masking-perceptual-audio-quality-measurement)
+
+  <details>
+  <summary>Abstract</summary>
+
+  This paper presents an improved model of informational masking, an important cognitive effect in audio-quality perception. The model considers disturbance-information complexity around the masking threshold.
+
+  The proposed metric is incorporated into a perceptual audio-quality measurement system using a novel interaction-analysis procedure between cognitive effects and distortion metrics. Validation against large and diverse listening-test databases shows that the proposed metric outperforms previously proposed informational-masking metrics.
+
+  </details>
+
+- **[Objective Quality Assessment of Perceptually Coded Audio Signals](https://opus4.kobv.de/opus4-fau/files/22761/DissertationPabloDelgado_electronic_no_logo.pdf)**  
+  *Doctoral dissertation*  
+  [Presentation](https://www.youtube.com/watch?v=hfDfuHvjxCE)
+
+  <details>
+  <summary>Abstract</summary>
+
+  The main goal of audio-signal coding and processing is to achieve the best possible sound quality within specific parameters. Perceptual audio-coding algorithms eliminate redundant and irrelevant information, but can also produce artifacts that degrade sound quality.
+
+  This thesis proposes contributions to improve both timbral and spatial aspects of objective audio-quality assessment by extending perceptual models of human hearing.
+
+  </details>
+
+- **[A Data-Driven Cognitive Salience Model for Objective Audio Quality Assessment](https://ieeexplore.ieee.org/document/9747064?dld=)**  
+  *ICASSP, 2022*  
+  [Video and slides](https://sigport.org/documents/data-driven-cognitive-salience-model-objective-perceptual-audio-quality-assessment-0)
+
+  <details>
+  <summary>Abstract</summary>
+
+  This work proposes a data-driven salience model for objective audio-quality measurement. The model estimates interactions between cognitive effects and degradation metrics and uses these interactions to improve the prediction of subjective-quality scores.
+
+  Systems incorporating the proposed salience model outperform equivalent systems that use only statistical learning to combine cognitive and degradation metrics.
+
+  </details>
+
+- **[Can We Still Use PEAQ? A Performance Analysis of the ITU Standard for the Objective Assessment of Perceived Audio Quality](https://ieeexplore.ieee.org/document/9123105)**  
+  [Video](https://www.youtube.com/watch?v=6fo-mp7_SCU&feature=youtu.be) · [arXiv](http://arxiv.org/abs/2212.01467)
+
+  <details>
+  <summary>Abstract</summary>
+
+  The Perceptual Evaluation of Audio Quality (PEAQ), described in ITU-R BS.1387, is widely used to estimate the quality of perceptually coded audio signals. However, its limitations are particularly evident for newer technologies such as bandwidth extension and parametric multichannel coding.
+
+  The results indicate that PEAQ's disturbance-loudness model remains competitive, although its performance depends on signal type. An updated mapping of Model Output Values to the Distortion Index can substantially improve performance. The paper also provides recommendations for improving PEAQ.
+
+  </details>
+
+- **Invited Workshop: To PEAQ or Not to PEAQ?—BS.1387 Revisited**  
+  *147th Audio Engineering Society Convention*
+
+  *Speakers:* Pablo Delgado and Thomas Sporer.  
+  [Workshop information](http://www.aes.org/events/147/acousticssessions/?ID=6885)
+
+  <details>
+  <summary>Description</summary>
+
+  This workshop examined the ITU-R BS.1387 recommendation for assessing bit-reduced audio signals. It explained how PEAQ was designed and validated, demonstrated cases where it fails to predict perceived quality, summarized subsequent work involving newer audio-coding tools and spatial audio, and discussed possible future developments.
+
+  </details>
+
+- **[Objective Measurement of Stereophonic Audio Quality in the Directional Loudness Domain](http://www.aes.org/e-lib/browse.cfm?elib=20624)**
+
+  <details>
+  <summary>Abstract</summary>
+
+  This paper proposes a scene-analysis method that considers signal loudness distributed across estimated source directions on the horizontal plane. Distortion features are calculated in the directional-loudness domain rather than the conventional time-frequency domain.
+
+  Experiments using an extensive database of parametric-audio-codec listening tests show that the proposed features provide equal or better correlation with subjectively perceived quality degradation than previous methods.
+
+  </details>
+
+- **[Influence of Binaural Processing on Objective Perceptual Quality Assessment](http://www.aes.org/e-lib/browse.cfm?elib=20505)**
+
+  <details>
+  <summary>Abstract</summary>
+
+  This paper investigates how variations in binaural processing—including head rotations, added reverberation, and simulated room properties—affect the prediction performance of a standardized objective audio-quality measurement scheme based on PEAQ and extended to include spatial aspects.
+
+  </details>
+
+- **[Objective Assessment of Spatial Audio Quality Using Directional Loudness Maps](https://ieeexplore.ieee.org/document/8683810)**  
+  [arXiv](http://arxiv.org/abs/2212.01451)
+
+  <details>
+  <summary>Abstract</summary>
+
+  This work introduces a feature for representing perceived quality degradation in processed spatial-audio scenes. The feature is extracted from stereophonic or binaural signals using a simplified stereo model with auditory events positioned at different directions in the stereo field.
+
+  The proposed directional-loudness distortion measure improves the prediction of subjective quality scores for spatially coded audio signals, including signals processed using bandwidth extension and joint-stereo coding.
+
+  </details>
+
+- **[Investigations on the Influence of Combined Inter-Aural Cue Distortions in Overall Audio Quality](https://www.dega-akustik.de/publikationen/online-proceedings/)**  
+  [arXiv](http://arxiv.org/abs/2212.01427)
+
+  <details>
+  <summary>Abstract</summary>
+
+  This work investigates how combinations of spatial distortions affect overall perceived audio quality. The study focuses on Inter-aural Level Difference Distortions, Inter-aural Time Difference Distortions, and Inter-aural Cross-correlation Distortions.
+
+  Controlled combinations of spatial distortions were applied to representative audio signals and evaluated through listening tests. The results provide guidelines for designing distortion measures that account for interactions between spatial cues.
+
+  </details>
+
+- **[Energy-Aware Modeling of Inter-Channel Level Difference Distortion Impact on Spatial Audio Perception](http://www.aes.org/e-lib/browse.cfm?elib=19634)**
+
+  <details>
+  <summary>Abstract</summary>
+
+  This paper proposes an energy-aware model of Inter-aural Level Difference Distortion perception. The model accounts for the dependency of perceived distortion on the energy content of different spectral regions.
+
+  Model parameters were fitted to subjective listening-test results and compared with existing approaches using databases of real coded signals.
+
+  </details>
+
+## Other projects
+
+- **[An Expressive Multidimensional Physical Modelling Percussion Instrument](http://vbn.aau.dk/en/publications/an-expressive-multidimensional-physical-modelling-percussion-instrument(e0e138ac-1ab5-4954-a829-dd95a6bfece3).html)**  
+  *Proceedings of the 15th Sound and Music Computing Conference, 2018*  
+  [ResearchGate](https://www.researchgate.net/publication/332268472_An_Expressive_Multidimensional_Physical_Modelling_Percussion_Instrument) · [Demo 1](https://youtu.be/6NMmVBBbhzg) · [Demo 2](https://www.youtube.com/watch?v=X4KBgh0xO_0)
+
+  I provided the ground concept and code. The project was developed with the Multisensory Experience Laboratory of the University of Aalborg.
+
+  <details>
+  <summary>Description</summary>
+
+  This paper describes the design, implementation, and evaluation of a digital percussion instrument with multidimensional polyphonic control of a real-time physical-modeling system.
+
+  The system uses modular parametric control of physical models, excitations, and couplings, together with continuous morphing and interaction capabilities. The evaluation showed that advances in sensor technology can enhance creativity in percussive instruments and extend gestural manipulation, but require carefully designed mapping schemes.
+
+  </details>
+
+- **[On the Effect of Inter-Channel Level Difference Distortions on the Perceived Subjective Quality of Stereo Signals](http://www.aes.org/e-lib/browse.cfm?elib=19441)**
+
+  <details>
+  <summary>Abstract</summary>
+
+  Perceptual audio coding at low bitrates and stereo-enhancement algorithms can affect the perceived quality of stereo audio signals. In addition to changes in timbre, the spatial sound image may also be altered.
+
+  This paper presents a study quantifying the effect of Inter-Channel Level Difference errors on perceived audio quality. The results show that larger errors lead to greater quality degradation and that spectral regions with relatively higher energy are affected more strongly.
+
+  </details>
+
+- **[Complexity Scaling of Audio Algorithms: Parametrizing the MPEG Advanced Audio Coding Rate-Distortion Loop](http://dafx16.vutbr.cz/dafxpapers/33-DAFx-16_paper_12-PN.pdf)**  
+  *DAFx, 2016*
+
+  <details>
+  <summary>Abstract</summary>
+
+  This paper proposes a modification to the rate-distortion loop in the quantization and coding stage of a fixed-point Advanced Audio Coding encoder. The modification introduces complexity scaling to control the trade-off between rate, distortion, and computational complexity.
+
+  Results show that the framework can reduce up to 80% of the additional workload caused by the rate-distortion loop while remaining perceptually equivalent to the full-complexity version.
+
+  </details>
+
+- **[Acoustic Source Localization Using Wireless Sensor Networks](http://pmdelgado.wordpress.com/2014/04/21/research-acoustic-source-localization-using-wireless-sensor-networks/)**
+
+  I developed an adaptive version of an algorithm for collaborative, distributed acoustic localization using energy readings from resource-constrained wireless sensor networks. Under certain conditions, the method outperforms commonly used approaches for a given set of design constraints.
+
+## Talks and teaching
+
+- **[Current Advances in Objective Quality Assessment of Perceptually Coded Audio Signals](https://uol.de/en/sfb-1330-hearing-acoustics/colloquium)**  
+  *Invited talk, University of Oldenburg, Collaborative Research Centre SFB 1330, 2 December 2025*
+
+  <details>
+  <summary>Description</summary>
+
+  The presentation focused on objective methods for predicting subjective audio-quality scores for perceptually coded signals. It covered recent advances in both timbral and spatial audio-quality measurement, including PEAQ-CSM and Directional Loudness Maps.
+
+  </details>
