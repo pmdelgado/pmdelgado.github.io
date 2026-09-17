@@ -8,6 +8,18 @@ permalink: /research/
 
 ## Publications
 
+- **[Comparing Training Objectives for Neural Post-Filtering of Coded Music](https://iwaenc2026.org/program/poster_78.html)**  
+  *IWAENC, 2026*
+
+  *Authors:* Heinmüller, Alexander; Brendel, Andreas; Delgado, Pablo M.; Herre Jürgen.
+
+  <details>
+  <summary>Abstract</summary>
+
+  Neural post-filters are an effective tool for improving the reconstruction quality of audio codecs, and hence, numerous models have been proposed in the literature. In this work, we compare several training paradigms—discriminative training, generative adversarial networks (GANs), score-based diffusion (SD), and conditional flow matching—for post-filtering speech and music, and we evaluate the resulting quality improvements across different perceptual audio codecs. We show that GANs can achieve music quality similar to that of SD models at a fraction of the computational complexity. Since the characteristics of a music signal are relevant for the performance of a codec, we further investigate how neural post-filters behave across different signal types.
+
+  </details>
+
 - **[MPEG-I Immersive Audio—The ISO/MPEG Standard for Virtual/Augmented Reality Audio](https://aes.org/publications/elibrary-page/?id=23235)**  
   *Journal of the Audio Engineering Society, 2026*
 
