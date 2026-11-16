@@ -8,6 +8,72 @@ permalink: /research/
 
 ## Publications
 
+- **Are Traditional Evaluation Methods Still Reliable for Neural Audio Codecs?**  
+  *AES Show 2026, Nashville, 2026*
+
+  *Authors:* Alexander Heinmüller, Andreas Brendel, Pablo Delgado, Juergen Herre.
+
+  <details>
+  <summary>Abstract</summary>
+
+  Neural audio codecs (NACs) represent a fundamentally different approach to audio compression compared to established signal processing-based codecs. Due to their relative novelty, there is currently no common consensus on best practices in their evaluation. For application in commercial services, it is of special interest to guarantee that audio codec quality does not drop below a certain guaranteed level independently of the input signal type. Therefore, audio codecs are traditionally evaluated on sets of test items that contain both generic and critical items to achieve a balanced and comprehensive system evaluation. This raises the question of whether the same approach and test items remain sufficient for NACs. This paper investigates this question by conducting a side-by-side performance evaluation of two classic audio codecs (CACs) and three well-known NACs with subjective and objective methods. We …
+
+  </details>
+
+- **[ODAQ-Collection: Expanding the Open Dataset of Audio Quality with a Focus on Spatial Distortions](https://arxiv.org/abs/2610.37959)**  
+  *arXiv preprint arXiv:2610.37959, 2026*
+
+  *Authors:* Chih-Wei Wu, Matteo Torcoli, Mhd Modar Halimeh, Pablo M. Delgado, Sascha Dick, Christoph Thompson, Phillip A. Williams, Emanuël A. P. Habets.
+
+  <details>
+  <summary>Abstract</summary>
+
+  The Open Dataset of Audio Quality (ODAQ) is an expanding resource that addresses the scarcity of openly available data in audio quality assessment research. While previous contributions focused mainly on timbral distortions, with spatial processing limited to basic mid-side and left-right stereo conditions, we present a new contribution featuring high-quality music and speech recordings with diverse stereo images, controlled spatial distortions, and subjective listening test results from trained listeners in a laboratory setting. With 148 pairs of stereo audio samples processed by three different method classes, two applying controlled binaural cue distortions and one applying dialogue enhancement, this addition expands the collection to 688 pairs of processed and unprocessed audio signals spanning 17 processing method classes, along with 18,984 raw subjective ratings from listeners. All associated data and code are released as open resources to facilitate future expansions and research on objective audio quality metrics.
+
+  </details>
+
+- **[A Robust, Explainable, and Efficient Deep Metric for Speech and General Audio Quality](https://arxiv.org/abs/2610.35810)**  
+  *arXiv preprint arXiv:2610.35810, 2026*
+
+  *Authors:* Konstantin Schmidt, Pablo M. Delgado, Andreas Brendel.
+
+  <details>
+  <summary>Abstract</summary>
+
+  We present a robust Speech and Audio Quality Metric (SAQM) that merges features of traditional quality metrics with a CNN trained on a large amount of data using contrastive learning methods. To overcome the problem of limited amounts of human-labeled training data, we propose two pretraining strategies relying on pseudo-labels. One uses an established objective metric PEAQ-2f (based on ITU-R BS.1387) as surrogate loss, the other is based on contrasting a wide range of coding modes by a rule-of-thumb ordering based on expected perceived quality.
+
+  As a key novelty, our approach lets us generate saliency maps by propagating gradients to identify which feature has the greatest impact on the final metric outcome and enables our system to provide insights regarding the type and extent of distortions present in the tested audio signal. The resulting SAQM operates at low computational complexity, performs comparably to state-of-the-art (SOTA) metrics on speech while still performing well on general audio content.
+
+  </details>
+
+- **[Ensemble-Based Perceptual Audio Quality Assessment with Confidence Intervals](https://arxiv.org/abs/2610.06569)**  
+  *arXiv preprint arXiv:2610.06569, 2026*
+
+  *Authors:* Pablo M. Delgado, Andreas Brendel, Konstantin Schmidt, Jürgen Herre.
+
+  <details>
+  <summary>Abstract</summary>
+
+  Objective audio quality metrics typically provide point estimates, whereas listening tests yield score distributions from which mean opinion scores (MOS), confidence intervals (CIs), and significance decisions are derived. We propose a lightweight intrusive metric that combines a PEAQ-style perceptual front-end (ITU-R BS.1387) with a bagging ensemble of regressors. Calibration with subjective data aligns ensemble outputs with listener scores. The resulting item-dependent score distributions enable uncertainty assessment, panel-size-matched CIs, and identification of less conclusive predictions.
+
+  Calibration improves agreement with subjective distributions and CI coverage across all evaluated datasets while preserving MOS accuracy. Using only 11 fixed PEAQ features, low-capacity regressors, and public training data, the method performs comparably to more data-intensive end-to-end approaches. Its output can support uncertainty-aware assessment and target listening tests towards uncertain conditions. The distributions also enable approximate pairwise comparisons, but not yet reliable significance inference.
+
+  </details>
+
+- **[PADP: Perceptual Audio Data Perturbation for Probing Perception Awareness in Audio Quality Models](https://arxiv.org/abs/2610.01405)**  
+  *arXiv preprint arXiv:2610.01405, 2026*
+
+  *Authors:* Guanxin Jiang, Andreas Brendel, Pablo M. Delgado, Jürgen Herre.
+
+  <details>
+  <summary>Abstract</summary>
+
+  This paper presents a collection of audio transforms that introduce perceptually irrelevant distortions and demonstrates their use as perceptual stress tests for audio quality models. We refer to these methods as Perceptual Audio Data Perturbation (PADP). PADP exploits the insensitivity of the human auditory system to certain fine-grained signal variations to substantially alter the waveform while preserving perceived audio quality and content.
+
+  The audibility of PADP and the selection of its parameters are evaluated through controlled listening tests, ensuring that the transformations achieve transparent or near-transparent quality for both non-critical and critical items. We further probe the robustness of state-of-the-art (SOTA) perception-motivated objective audio quality models and foundation models. The results reveal a misalignment between model responses and human auditory perception, highlighting the limited perceptual awareness of these models for certain proposed transforms.
+
+  </details>
+
 - **[Comparing Training Objectives for Neural Post-Filtering of Coded Music](https://iwaenc2026.org/program/poster_78.html)**  
   *IWAENC, 2026*
 
@@ -78,20 +144,6 @@ permalink: /research/
 
   </details>
 
-- **Panel Discussion: Neural Audio Coding Techniques and Their Evaluation**  
-  *Audio Engineering Society Artificial Intelligence and Machine Learning for Audio Conference, London, 8–10 September 2025*
-
-  *Participants:* Jan Skoglund, Jürgen Herre, Julian Parker, and Stéphane Ragot.
-
-  <details>
-  <summary>Description</summary>
-
-  Neural audio coding is a cutting-edge approach to audio compression, but its technology development is still in its infancy. This panel presented an overview of neural audio coding techniques in development and highlighted dataset robustness issues.
-
-  The discussion emphasized the need for robust subjective and objective evaluation methods, given that neural codecs may generate outputs that differ substantially from the original signal. It also explored which established assessment principles remain relevant and how insights from generative models can inform new evaluation strategies.
-
-  </details>
-
 - **[Towards Improved Objective Perceptual Audio Quality Assessment—Part 1: A Novel Data-Driven Cognitive Model](https://ieeexplore.ieee.org/abstract/document/10711267)**  
   *IEEE/ACM Transactions on Audio, Speech, and Language Processing*
 
@@ -115,20 +167,6 @@ permalink: /research/
   The Open Dataset of Audio Quality (ODAQ) was introduced to address the scarcity of openly available audio datasets with corresponding subjective-quality scores. The dataset comprises audio material processed using six different signal-processing methods at five quality levels, together with subjective-test results.
 
   This work expanded the dataset through additional listening tests conducted by university students following listener training. The results were consistent with those from expert listeners. The expanded dataset contains results from three international laboratories, 42 listeners, and 10,080 subjective scores.
-
-  </details>
-
-- **Workshop: Applications of Artificial Intelligence and Machine Learning in Audio Quality Models**  
-  *156th and 157th Audio Engineering Society Conventions, Madrid and New York City, 2024*
-
-  *Co-organizers:* Jan Skoglund, Phillip Williams, Arijit Biswas, and Hannes Gamper.
-
-  <details>
-  <summary>Description</summary>
-
-  This workshop, sponsored by the AES Technical Committee on Machine Learning and Artificial Intelligence, provided hands-on experience with machine learning for audio-quality modeling.
-
-  Topics included experimental design, data collection, data augmentation, filtering, model design, and cross-validation. The workshop also covered historical and modern approaches to combining machine learning with auditory perception and provided participants with tools for evaluating ML-based quality models.
 
   </details>
 
@@ -192,19 +230,6 @@ permalink: /research/
   The Perceptual Evaluation of Audio Quality (PEAQ), described in ITU-R BS.1387, is widely used to estimate the quality of perceptually coded audio signals. However, its limitations are particularly evident for newer technologies such as bandwidth extension and parametric multichannel coding.
 
   The results indicate that PEAQ's disturbance-loudness model remains competitive, although its performance depends on signal type. An updated mapping of Model Output Values to the Distortion Index can substantially improve performance. The paper also provides recommendations for improving PEAQ.
-
-  </details>
-
-- **Invited Workshop: To PEAQ or Not to PEAQ?—BS.1387 Revisited**  
-  *147th Audio Engineering Society Convention*
-
-  *Speakers:* Pablo Delgado and Thomas Sporer.  
-  [Workshop information](http://www.aes.org/events/147/acousticssessions/?ID=6885)
-
-  <details>
-  <summary>Description</summary>
-
-  This workshop examined the ITU-R BS.1387 recommendation for assessing bit-reduced audio signals. It explained how PEAQ was designed and validated, demonstrated cases where it fails to predict perceived quality, summarized subsequent work involving newer audio-coding tools and spatial audio, and discussed possible future developments.
 
   </details>
 
@@ -316,5 +341,46 @@ permalink: /research/
   <summary>Description</summary>
 
   The presentation focused on objective methods for predicting subjective audio-quality scores for perceptually coded signals. It covered recent advances in both timbral and spatial audio-quality measurement, including PEAQ-CSM and Directional Loudness Maps.
+
+  </details>
+
+- **Panel Discussion: Neural Audio Coding Techniques and Their Evaluation**  
+  *Audio Engineering Society Artificial Intelligence and Machine Learning for Audio Conference, London, 8–10 September 2025*
+
+  *Participants:* Jan Skoglund, Jürgen Herre, Julian Parker, and Stéphane Ragot.
+
+  <details>
+  <summary>Description</summary>
+
+  Neural audio coding is a cutting-edge approach to audio compression, but its technology development is still in its infancy. This panel presented an overview of neural audio coding techniques in development and highlighted dataset robustness issues.
+
+  The discussion emphasized the need for robust subjective and objective evaluation methods, given that neural codecs may generate outputs that differ substantially from the original signal. It also explored which established assessment principles remain relevant and how insights from generative models can inform new evaluation strategies.
+
+  </details>
+
+- **Workshop: Applications of Artificial Intelligence and Machine Learning in Audio Quality Models**  
+  *156th and 157th Audio Engineering Society Conventions, Madrid and New York City, 2024*
+
+  *Co-organizers:* Jan Skoglund, Phillip Williams, Arijit Biswas, and Hannes Gamper.
+
+  <details>
+  <summary>Description</summary>
+
+  This workshop, sponsored by the AES Technical Committee on Machine Learning and Artificial Intelligence, provided hands-on experience with machine learning for audio-quality modeling.
+
+  Topics included experimental design, data collection, data augmentation, filtering, model design, and cross-validation. The workshop also covered historical and modern approaches to combining machine learning with auditory perception and provided participants with tools for evaluating ML-based quality models.
+
+  </details>
+
+- **Invited Workshop: To PEAQ or Not to PEAQ?—BS.1387 Revisited**  
+  *147th Audio Engineering Society Convention*
+
+  *Speakers:* Pablo Delgado and Thomas Sporer.  
+  [Workshop information](http://www.aes.org/events/147/acousticssessions/?ID=6885)
+
+  <details>
+  <summary>Description</summary>
+
+  This workshop examined the ITU-R BS.1387 recommendation for assessing bit-reduced audio signals. It explained how PEAQ was designed and validated, demonstrated cases where it fails to predict perceived quality, summarized subsequent work involving newer audio-coding tools and spatial audio, and discussed possible future developments.
 
   </details>
