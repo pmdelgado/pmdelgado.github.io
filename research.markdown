@@ -8,6 +8,18 @@ permalink: /research/
 
 ## Publications
 
+- **[Perceptual Audio Coders – What to Listen For](https://aes.org/publications/elibrary-page/23437.pdf)**
+
+  *Journal of the Audio Engineering Society · Volume 74 · Issue 9 · pp. 576–593 · September 2026*
+
+  *Authors: Herre, Jürgen; Dick, Sascha; Biswas, Arijit; Bosi, Marina; Delgado, Pablo M.; Schuller, Gerald; Erne, Markus*
+
+  <details>
+  <summary>Abstract</summary>
+
+  In 2001, the AES Technical Committee on Coding of Audio Signals produced the legendary educational CD-ROM “Perceptual Audio Coders –What To Listen For.” It contains a taxonomy of common types of codec artifacts and tutorial information on the background of each one. Example audio signals with different degrees of impairment illustrate the nature of the artifacts and help in training test listeners’ expertise. Since its initial release, several generations of CD-ROMs have been sold, and the material has found worldwide use for the education of the public. This paper presents the comprehensive second edition of the tutorial, based on the Technical Committee’s efforts in producing a next-generation educational package. It covers an extended range of coding artifact types that can be typically experienced with classic and advanced audio coder processing (e.g., bandwidth extension or parametric stereo). The paper provides the theoretical background for coding artifacts and educates readers on subjective quality evaluation. The enhanced format of the tutorial allows for seamless display and playback on PCs, tablets and mobile phones and includes interactive graphical elements. This attractive educational package is available freely on the web.
+  </details>
+
 - **Are Traditional Evaluation Methods Still Reliable for Neural Audio Codecs?**  
   *AES Show 2026, Nashville, 2026*
 
@@ -16,7 +28,7 @@ permalink: /research/
   <details>
   <summary>Abstract</summary>
 
-  Neural audio codecs (NACs) represent a fundamentally different approach to audio compression compared to established signal processing-based codecs. Due to their relative novelty, there is currently no common consensus on best practices in their evaluation. For application in commercial services, it is of special interest to guarantee that audio codec quality does not drop below a certain guaranteed level independently of the input signal type. Therefore, audio codecs are traditionally evaluated on sets of test items that contain both generic and critical items to achieve a balanced and comprehensive system evaluation. This raises the question of whether the same approach and test items remain sufficient for NACs. This paper investigates this question by conducting a side-by-side performance evaluation of two classic audio codecs (CACs) and three well-known NACs with subjective and objective methods. We …
+  Neural audio codecs (NACs) represent a fundamentally different approach to audio compression compared to established signal processing-based codecs. Due to their relative novelty, there is currently no common consensus on best practices in their evaluation. For application in commercial services, it is of special interest to guarantee that audio codec quality does not drop below a certain guaranteed level independently of the input signal type. Therefore, audio codecs are traditionally evaluated on sets of test items that contain both generic and critical items to achieve a balanced and comprehensive system evaluation. This raises the question of whether the same approach and test items remain sufficient for NACs. This paper investigates this question by conducting a side-by-side performance evaluation of two classic audio codecs (CACs) and three well-known NACs with subjective and objective methods.
 
   </details>
 
